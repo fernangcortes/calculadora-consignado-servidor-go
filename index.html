@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Empréstimo Consignado para Servidores do Estado de Goiás</title>
+     <title>Simulador de Empréstimo Consignado para Servidores do Estado de Goiás</title>
 
 <meta property="og:title" content="Simulador de Empréstimo Consignado para Servidores do Estado de Goiás">
 <meta property="og:description" content="Calcule o CET. Simule juros e proteja seu salário. Desenvolvida por um servidor para os servidores do Estado de Goiás.">
@@ -12,7 +12,7 @@
 
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-    
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Ícones Lucide -->
@@ -52,7 +52,7 @@
             #tabSites { display: none !important; }
         }
     </style>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.bottom-0{bottom:0px}.left-0{left:0px}.left-3{left:0.75rem}.right-0{right:0px}.right-3{right:0.75rem}.top-1\/2{top:50%}.top-0{top:0px}.z-50{z-index:50}.z-\[100\]{z-index:100}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-8{margin-bottom:2rem}.mr-4{margin-right:1rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mb-3{margin-bottom:0.75rem}.ml-2{margin-left:0.5rem}.mr-1{margin-right:0.25rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-3{height:0.75rem}.h-3\.5{height:0.875rem}.h-4{height:1rem}.h-5{height:1.25rem}.w-3{width:0.75rem}.w-3\.5{width:0.875rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-6xl{max-width:72rem}.max-w-7xl{max-width:80rem}.max-w-\[70\%\]{max-width:70%}.max-w-lg{max-width:32rem}.shrink-0{flex-shrink:0}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;user-select:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-1\.5{gap:0.375rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rounded{border-radius:0.25rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-bl{border-bottom-left-radius:0.25rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l{border-left-width:1px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-amber-100{--tw-border-opacity:1;border-color:rgb(254 243 199 / var(--tw-border-opacity, 1))}.border-blue-100{--tw-border-opacity:1;border-color:rgb(219 234 254 / var(--tw-border-opacity, 1))}.border-emerald-100{--tw-border-opacity:1;border-color:rgb(209 250 229 / var(--tw-border-opacity, 1))}.border-rose-100{--tw-border-opacity:1;border-color:rgb(255 228 230 / var(--tw-border-opacity, 1))}.border-rose-500\/50{border-color:rgb(244 63 94 / 0.5)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-yellow-400{--tw-border-opacity:1;border-color:rgb(250 204 21 / var(--tw-border-opacity, 1))}.border-l-green-500{--tw-border-opacity:1;border-left-color:rgb(34 197 94 / var(--tw-border-opacity, 1))}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-emerald-50{--tw-bg-opacity:1;background-color:rgb(236 253 245 / var(--tw-bg-opacity, 1))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.bg-emerald-700{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.bg-emerald-700\/50{background-color:rgb(4 120 87 / 0.5)}.bg-emerald-800{--tw-bg-opacity:1;background-color:rgb(6 95 70 / var(--tw-bg-opacity, 1))}.bg-green-50{--tw-bg-opacity:1;background-color:rgb(240 253 244 / var(--tw-bg-opacity, 1))}.bg-rose-50{--tw-bg-opacity:1;background-color:rgb(255 241 242 / var(--tw-bg-opacity, 1))}.bg-rose-700\/50{background-color:rgb(190 18 60 / 0.5)}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199 / var(--tw-bg-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21 / var(--tw-bg-opacity, 1))}.bg-yellow-50{--tw-bg-opacity:1;background-color:rgb(254 252 232 / var(--tw-bg-opacity, 1))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.fill-yellow-500{fill:#eab308}.p-1{padding:0.25rem}.p-2{padding:0.5rem}.p-2\.5{padding:0.625rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-1\.5{padding:0.375rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.px-1\.5{padding-left:0.375rem;padding-right:0.375rem}.pb-20{padding-bottom:5rem}.pl-4{padding-left:1rem}.pl-6{padding-left:1.5rem}.pl-9{padding-left:2.25rem}.pr-12{padding-right:3rem}.pr-8{padding-right:2rem}.pt-4{padding-top:1rem}.pb-2{padding-bottom:0.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10px\]{font-size:10px}.text-\[9px\]{font-size:9px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.tracking-wider{letter-spacing:0.05em}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9 / var(--tw-text-opacity, 1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-emerald-100{--tw-text-opacity:1;color:rgb(209 250 229 / var(--tw-text-opacity, 1))}.text-emerald-200{--tw-text-opacity:1;color:rgb(167 243 208 / var(--tw-text-opacity, 1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-emerald-800{--tw-text-opacity:1;color:rgb(6 95 70 / var(--tw-text-opacity, 1))}.text-emerald-900{--tw-text-opacity:1;color:rgb(6 78 59 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-green-800{--tw-text-opacity:1;color:rgb(22 101 52 / var(--tw-text-opacity, 1))}.text-rose-100{--tw-text-opacity:1;color:rgb(255 228 230 / var(--tw-text-opacity, 1))}.text-rose-500{--tw-text-opacity:1;color:rgb(244 63 94 / var(--tw-text-opacity, 1))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60 / var(--tw-text-opacity, 1))}.text-rose-800{--tw-text-opacity:1;color:rgb(159 18 57 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229 / var(--tw-text-opacity, 1))}.text-orange-600{--tw-text-opacity:1;color:rgb(234 88 12 / var(--tw-text-opacity, 1))}.text-yellow-600{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.text-yellow-800{--tw-text-opacity:1;color:rgb(133 77 14 / var(--tw-text-opacity, 1))}.text-yellow-900{--tw-text-opacity:1;color:rgb(113 63 18 / var(--tw-text-opacity, 1))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.opacity-80{opacity:0.8}.opacity-90{opacity:0.9}.opacity-50{opacity:0.5}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_-4px_6px_-1px_rgba\(0\2c 0\2c 0\2c 0\.05\)\]{--tw-shadow:0 -4px 6px -1px rgba(0,0,0,0.05);--tw-shadow-colored:0 -4px 6px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.ring-4{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-emerald-50\/50{--tw-ring-color:rgb(236 253 245 / 0.5)}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-emerald-800:hover{--tw-bg-opacity:1;background-color:rgb(6 95 70 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-100:hover{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-800:hover{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-900:hover{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/50:hover{background-color:rgb(255 255 255 / 0.5)}.hover\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-100:hover{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.hover\:bg-indigo-100:hover{--tw-bg-opacity:1;background-color:rgb(224 231 255 / var(--tw-bg-opacity, 1))}.hover\:bg-orange-100:hover{--tw-bg-opacity:1;background-color:rgb(255 237 213 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-600:hover{--tw-bg-opacity:1;background-color:rgb(202 138 4 / var(--tw-bg-opacity, 1))}.hover\:text-amber-900:hover{--tw-text-opacity:1;color:rgb(120 53 15 / var(--tw-text-opacity, 1))}.hover\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.hover\:text-blue-900:hover{--tw-text-opacity:1;color:rgb(30 58 138 / var(--tw-text-opacity, 1))}.hover\:text-emerald-900:hover{--tw-text-opacity:1;color:rgb(6 78 59 / var(--tw-text-opacity, 1))}.hover\:text-rose-900:hover{--tw-text-opacity:1;color:rgb(136 19 55 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.hover\:text-slate-900:hover{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:border-emerald-500:focus{--tw-border-opacity:1;border-color:rgb(16 185 129 / var(--tw-border-opacity, 1))}.focus\:ring-emerald-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(16 185 129 / var(--tw-ring-opacity, 1))}.group:hover .group-hover\:text-blue-900{--tw-text-opacity:1;color:rgb(30 58 138 / var(--tw-text-opacity, 1))}.group:hover .group-hover\:underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:col-span-2{grid-column:span 2 / span 2}.md\:max-w-none{max-width:none}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}}@media (min-width: 1024px){.lg\:col-span-4{grid-column:span 4 / span 4}.lg\:col-span-8{grid-column:span 8 / span 8}.lg\:grid-cols-12{grid-template-columns:repeat(12, minmax(0, 1fr))}}</style></head>
+</head>
 <body class="bg-slate-100 text-slate-700 pb-20">
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8">
@@ -71,19 +71,19 @@
             <!-- Navegação de Abas -->
             <div class="flex bg-slate-200 p-1 rounded-xl gap-1">
                 <button onclick="mudarAba('calculadora')" id="btnTabCalc" onmouseenter="setTip('Voltar para a tela de simulação financeira e ranking de bancos.')" onmouseleave="clearTip()" class="px-4 py-2 font-bold rounded-lg transition-colors text-sm flex items-center gap-2 bg-emerald-700 text-white shadow-md">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calculator" class="lucide lucide-calculator w-4 h-4"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg> Calculadora
+                    <i data-lucide="calculator" class="w-4 h-4"></i> Calculadora
                 </button>
                 <button onclick="mudarAba('sites')" id="btnTabSites" onmouseenter="setTip('Acesse leis estaduais, regras do IOF e notícias sobre seus direitos.')" onmouseleave="clearTip()" class="px-4 py-2 font-bold rounded-lg transition-colors text-sm flex items-center gap-2 bg-transparent text-slate-600 hover:bg-white/50">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="link" class="lucide lucide-link w-4 h-4"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> Sites Úteis
+                    <i data-lucide="link" class="w-4 h-4"></i> Sites Úteis
                 </button>
             </div>
 
             <div class="flex gap-2">
                 <button onclick="baixarPrograma()" onmouseenter="setTip('Salva este programa inteiro no seu computador para usar offline.')" onmouseleave="clearTip()" class="flex items-center gap-2 bg-slate-700 hover:bg-slate-800 text-white px-4 py-2 rounded-lg font-medium transition-colors shadow-sm text-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="download" class="lucide lucide-download w-4 h-4"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg>
+                    <i data-lucide="download" class="w-4 h-4"></i>
                 </button>
                 <button onclick="gerarOrcamento()" onmouseenter="setTip('Gera relatório detalhado com ranking, mapa de juros e dicas.')" onmouseleave="clearTip()" class="flex items-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white px-4 py-2 rounded-lg font-medium transition-colors shadow-sm text-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="printer" class="lucide lucide-printer w-4 h-4"><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6"></path><rect x="6" y="14" width="12" height="8" rx="1"></rect></svg>
+                    <i data-lucide="printer" class="w-4 h-4"></i>
                 </button>
             </div>
         </div>
@@ -99,10 +99,10 @@
                     <div class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden">
                         <div class="bg-slate-50 px-6 py-4 border-b border-slate-100 flex items-center justify-between cursor-pointer hover:bg-slate-100 transition-colors" onclick="toggleDadosPessoais()" onmouseenter="setTip('Preencha para personalizar o cabeçalho do documento impresso.')" onmouseleave="clearTip()">
                             <div class="flex items-center gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user" class="lucide lucide-user w-5 h-5 text-blue-700"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                <i data-lucide="user" class="w-5 h-5 text-blue-700"></i>
                                 <h2 class="font-bold text-slate-800 text-lg">Dados do Cliente</h2>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" id="iconToggleDados" class="lucide lucide-chevron-down w-4 h-4 text-slate-400 transition-transform"><path d="m6 9 6 6 6-6"></path></svg>
+                            <i data-lucide="chevron-down" id="iconToggleDados" class="w-4 h-4 text-slate-400 transition-transform"></i>
                         </div>
                         <div id="formDadosPessoais" class="hidden p-6 space-y-4 border-t border-slate-100 bg-slate-50/50">
                             <div onmouseenter="setTip('Nome aparecerá no cabeçalho do orçamento impresso.')" onmouseleave="clearTip()">
@@ -129,7 +129,7 @@
 
                     <div class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden">
                         <div class="bg-slate-50 px-6 py-4 border-b border-slate-100 flex items-center gap-2" onmouseenter="setTip('Configure aqui o valor, prazo e condições do seu empréstimo.')" onmouseleave="clearTip()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calculator" class="lucide lucide-calculator w-5 h-5 text-emerald-700"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
+                            <i data-lucide="calculator" class="w-5 h-5 text-emerald-700"></i>
                             <h2 class="font-bold text-slate-800 text-lg">Parâmetros</h2>
                         </div>
                         <div class="p-6 space-y-5">
@@ -220,7 +220,7 @@
 
                     <div id="cardDica" class="border-l-4 border-l-green-500 bg-green-50 rounded-lg p-4 fade-in">
                         <div class="flex items-center gap-2 text-green-800 font-bold text-sm mb-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star w-4 h-4"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg> Oportunidade Prazo Curto
+                            <i data-lucide="star" class="w-4 h-4"></i> Oportunidade Prazo Curto
                         </div>
                         <p class="text-xs text-green-700">
                             Para prazos de até 60x, a <strong>Servcred</strong> costuma ter taxas muito competitivas (1,36% - 1,58%).
@@ -245,7 +245,7 @@
                                     
                                     <!-- ALERTA DE MARGEM ESTOURADA -->
                                     <div id="alertaMargem" class="mt-2 bg-rose-700/50 border border-rose-500/50 p-2 rounded text-xs text-rose-100 flex items-center gap-2 hidden">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="alert-circle" class="lucide lucide-alert-circle w-4 h-4 shrink-0"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
+                                        <i data-lucide="alert-circle" class="w-4 h-4 shrink-0"></i>
                                         <span>Ultrapassa margem de 35%. Reduza o valor ou aumente o prazo.</span>
                                     </div>
                                 </div>
@@ -275,7 +275,7 @@
 
                         <div class="px-6 py-3 bg-white flex justify-between items-center text-sm border-t border-slate-100">
                             <div class="flex items-center gap-2 text-rose-700 font-bold" onmouseenter="setTip('Dinheiro pago apenas em juros (aluguel do dinheiro).')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trending-up" class="lucide lucide-trending-up w-4 h-4"><path d="M16 7h6v6"></path><path d="m22 7-8.5 8.5-5-5L2 17"></path></svg>
+                                <i data-lucide="trending-up" class="w-4 h-4"></i>
                                 Custo Total de Juros: <span id="displayJurosTotal">R$&nbsp;11.285,61</span>
                             </div>
                             <div class="text-xs text-slate-500 font-medium bg-slate-100 px-2 py-1 rounded" onmouseenter="setTip('Porcentagem do total pago que corresponde apenas a juros.')" onmouseleave="clearTip()">
@@ -287,7 +287,7 @@
                     <!-- Tabela de Bancos -->
                     <div class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden no-print">
                         <div class="bg-slate-50 px-6 py-4 border-b border-slate-100 flex items-center gap-2" onmouseenter="setTip('Lista comparativa ordenada da menor para a maior taxa (Custo Efetivo).')" onmouseleave="clearTip()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="building" class="lucide lucide-building w-5 h-5 text-blue-700"><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M12 6h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M16 6h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path><path d="M8 6h.01"></path><path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3"></path><rect x="4" y="2" width="16" height="20" rx="2"></rect></svg>
+                            <i data-lucide="building" class="w-5 h-5 text-blue-700"></i>
                             <h2 class="font-bold text-slate-800 text-lg">Ranking de Oportunidades (Goiás)</h2>
                         </div>
                         
@@ -302,175 +302,9 @@
                                         <th class="px-4 py-3 text-center">Contato</th>
                                     </tr>
                                 </thead>
-                                <tbody id="tabelaBancos"><tr class="row-default bg-white border-b border-slate-100 hover:bg-slate-50 cursor-pointer transition-colors">
-                    <td class="px-4 py-3">
-                        <div class="font-bold text-slate-900 flex items-center"> Financeira Alfa <span class="bg-emerald-600 text-white text-[9px] px-1.5 py-0.5 rounded font-bold uppercase ml-2">Melhor</span></div>
-                        <div class="mt-1"><span class="inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-emerald-100 text-emerald-800 mr-1 mb-1">Melhor Cenário</span></div>
-                    </td>
-                    <td class="px-4 py-3 text-center">1.26%</td>
-                    <td class="px-4 py-3 text-center text-slate-800 font-bold">R$&nbsp;446,41</td>
-                    <td class="px-4 py-3 text-right text-rose-700 font-bold">1.39%</td>
-                    <td class="px-4 py-3 text-center">
-                        <div class="flex items-center justify-center gap-1.5">
-                            <a href="tel:4004-0001" class="p-1.5 bg-slate-100 hover:bg-indigo-100 text-indigo-600 rounded-full" title="Ligar" onclick="event.stopPropagation()" onmouseenter="setTip('Ligue para Financeira Alfa: 4004-0001')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" class="lucide lucide-phone w-3.5 h-3.5"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
-                            </a>
-                            <a href="mailto:sac@financeiraalfa.com.br" class="p-1.5 bg-slate-100 hover:bg-orange-100 text-orange-600 rounded-full" title="Email" onclick="event.stopPropagation()" onmouseenter="setTip('Email: sac@financeiraalfa.com.br')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-3.5 h-3.5"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                            </a>
-                            <a href="https://www.financeiraalfa.com.br/" target="_blank" class="p-1.5 bg-slate-100 hover:bg-blue-100 text-blue-600 rounded-full" title="Site Oficial" onclick="event.stopPropagation()" onmouseenter="setTip('Visite o site oficial')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="globe" class="lucide lucide-globe w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                            </a>
-                            <a href="https://www.google.com/maps/search/Financeira+Alfa+Goiania" target="_blank" class="p-1.5 bg-slate-100 hover:bg-emerald-100 text-emerald-600 rounded-full" title="Mapa" onclick="event.stopPropagation()" onmouseenter="setTip('Ver agências em Goiânia')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-3.5 h-3.5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            </a>
-                        </div>
-                    </td>
-                </tr><tr class="row-default bg-white border-b border-slate-100 hover:bg-slate-50 cursor-pointer transition-colors">
-                    <td class="px-4 py-3">
-                        <div class="font-bold text-slate-900 flex items-center"> Servcred/GO </div>
-                        <div class="mt-1"><span class="inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-emerald-100 text-emerald-800 mr-1 mb-1">Ótimo p/ Prazo Curto</span><span class="inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-slate-100 text-slate-800 mr-1 mb-1">Regional</span></div>
-                    </td>
-                    <td class="px-4 py-3 text-center">1.36%</td>
-                    <td class="px-4 py-3 text-center text-slate-800 font-bold">R$&nbsp;458,31</td>
-                    <td class="px-4 py-3 text-right text-rose-700 font-bold">1.49%</td>
-                    <td class="px-4 py-3 text-center">
-                        <div class="flex items-center justify-center gap-1.5">
-                            <a href="tel:(62) 3213-0000" class="p-1.5 bg-slate-100 hover:bg-indigo-100 text-indigo-600 rounded-full" title="Ligar" onclick="event.stopPropagation()" onmouseenter="setTip('Ligue para Servcred/GO: (62) 3213-0000')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" class="lucide lucide-phone w-3.5 h-3.5"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
-                            </a>
-                            <a href="mailto:contato@servcred.com.br" class="p-1.5 bg-slate-100 hover:bg-orange-100 text-orange-600 rounded-full" title="Email" onclick="event.stopPropagation()" onmouseenter="setTip('Email: contato@servcred.com.br')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-3.5 h-3.5"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                            </a>
-                            <a href="https://www.servcred.com.br" target="_blank" class="p-1.5 bg-slate-100 hover:bg-blue-100 text-blue-600 rounded-full" title="Site Oficial" onclick="event.stopPropagation()" onmouseenter="setTip('Visite o site oficial')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="globe" class="lucide lucide-globe w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                            </a>
-                            <a href="https://www.google.com/maps/search/Servcred+Goiania" target="_blank" class="p-1.5 bg-slate-100 hover:bg-emerald-100 text-emerald-600 rounded-full" title="Mapa" onclick="event.stopPropagation()" onmouseenter="setTip('Ver agências em Goiânia')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-3.5 h-3.5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            </a>
-                        </div>
-                    </td>
-                </tr><tr class="row-default bg-white border-b border-slate-100 hover:bg-slate-50 cursor-pointer transition-colors">
-                    <td class="px-4 py-3">
-                        <div class="font-bold text-slate-900 flex items-center"> Caixa Econômica </div>
-                        <div class="mt-1"><span class="inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-blue-100 text-blue-800 mr-1 mb-1">Taxa Imbatível</span></div>
-                    </td>
-                    <td class="px-4 py-3 text-center">1.58%</td>
-                    <td class="px-4 py-3 text-center text-slate-800 font-bold">R$&nbsp;485,07</td>
-                    <td class="px-4 py-3 text-right text-rose-700 font-bold">1.72%</td>
-                    <td class="px-4 py-3 text-center">
-                        <div class="flex items-center justify-center gap-1.5">
-                            <a href="tel:4004-0104" class="p-1.5 bg-slate-100 hover:bg-indigo-100 text-indigo-600 rounded-full" title="Ligar" onclick="event.stopPropagation()" onmouseenter="setTip('Ligue para Caixa Econômica: 4004-0104')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" class="lucide lucide-phone w-3.5 h-3.5"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
-                            </a>
-                            <a href="mailto:faleconosco@caixa.gov.br" class="p-1.5 bg-slate-100 hover:bg-orange-100 text-orange-600 rounded-full" title="Email" onclick="event.stopPropagation()" onmouseenter="setTip('Email: faleconosco@caixa.gov.br')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-3.5 h-3.5"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                            </a>
-                            <a href="https://www.caixa.gov.br" target="_blank" class="p-1.5 bg-slate-100 hover:bg-blue-100 text-blue-600 rounded-full" title="Site Oficial" onclick="event.stopPropagation()" onmouseenter="setTip('Visite o site oficial')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="globe" class="lucide lucide-globe w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                            </a>
-                            <a href="https://www.google.com/maps/search/Caixa+Economica+Federal+Goiania" target="_blank" class="p-1.5 bg-slate-100 hover:bg-emerald-100 text-emerald-600 rounded-full" title="Mapa" onclick="event.stopPropagation()" onmouseenter="setTip('Ver agências em Goiânia')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-3.5 h-3.5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            </a>
-                        </div>
-                    </td>
-                </tr><tr class="row-default bg-white border-b border-slate-100 hover:bg-slate-50 cursor-pointer transition-colors">
-                    <td class="px-4 py-3">
-                        <div class="font-bold text-slate-900 flex items-center"> Banco do Brasil </div>
-                        <div class="mt-1"><span class="inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-blue-100 text-blue-800 mr-1 mb-1">App Fácil</span></div>
-                    </td>
-                    <td class="px-4 py-3 text-center">1.71%</td>
-                    <td class="px-4 py-3 text-center text-slate-800 font-bold">R$&nbsp;501,27</td>
-                    <td class="px-4 py-3 text-right text-rose-700 font-bold">1.85%</td>
-                    <td class="px-4 py-3 text-center">
-                        <div class="flex items-center justify-center gap-1.5">
-                            <a href="tel:4004-0001" class="p-1.5 bg-slate-100 hover:bg-indigo-100 text-indigo-600 rounded-full" title="Ligar" onclick="event.stopPropagation()" onmouseenter="setTip('Ligue para Banco do Brasil: 4004-0001')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" class="lucide lucide-phone w-3.5 h-3.5"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
-                            </a>
-                            <a href="mailto:bbconsignado@bb.com.br" class="p-1.5 bg-slate-100 hover:bg-orange-100 text-orange-600 rounded-full" title="Email" onclick="event.stopPropagation()" onmouseenter="setTip('Email: bbconsignado@bb.com.br')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-3.5 h-3.5"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                            </a>
-                            <a href="https://www.bb.com.br" target="_blank" class="p-1.5 bg-slate-100 hover:bg-blue-100 text-blue-600 rounded-full" title="Site Oficial" onclick="event.stopPropagation()" onmouseenter="setTip('Visite o site oficial')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="globe" class="lucide lucide-globe w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                            </a>
-                            <a href="https://www.google.com/maps/search/Banco+do+Brasil+Goiania" target="_blank" class="p-1.5 bg-slate-100 hover:bg-emerald-100 text-emerald-600 rounded-full" title="Mapa" onclick="event.stopPropagation()" onmouseenter="setTip('Ver agências em Goiânia')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-3.5 h-3.5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            </a>
-                        </div>
-                    </td>
-                </tr><tr class="row-default bg-white border-b border-slate-100 hover:bg-slate-50 cursor-pointer transition-colors">
-                    <td class="px-4 py-3">
-                        <div class="font-bold text-slate-900 flex items-center"> Banco Pan </div>
-                        <div class="mt-1"><span class="inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-amber-100 text-amber-800 mr-1 mb-1">Refinanciamento</span></div>
-                    </td>
-                    <td class="px-4 py-3 text-center">2.02%</td>
-                    <td class="px-4 py-3 text-center text-slate-800 font-bold">R$&nbsp;541,01</td>
-                    <td class="px-4 py-3 text-right text-rose-700 font-bold">2.16%</td>
-                    <td class="px-4 py-3 text-center">
-                        <div class="flex items-center justify-center gap-1.5">
-                            <a href="tel:4004-4828" class="p-1.5 bg-slate-100 hover:bg-indigo-100 text-indigo-600 rounded-full" title="Ligar" onclick="event.stopPropagation()" onmouseenter="setTip('Ligue para Banco Pan: 4004-4828')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" class="lucide lucide-phone w-3.5 h-3.5"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
-                            </a>
-                            <a href="mailto:atendimento@bancopan.com.br" class="p-1.5 bg-slate-100 hover:bg-orange-100 text-orange-600 rounded-full" title="Email" onclick="event.stopPropagation()" onmouseenter="setTip('Email: atendimento@bancopan.com.br')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-3.5 h-3.5"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                            </a>
-                            <a href="https://www.bancopan.com.br" target="_blank" class="p-1.5 bg-slate-100 hover:bg-blue-100 text-blue-600 rounded-full" title="Site Oficial" onclick="event.stopPropagation()" onmouseenter="setTip('Visite o site oficial')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="globe" class="lucide lucide-globe w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                            </a>
-                            <a href="https://www.google.com/maps/search/Banco+Pan+Goiania" target="_blank" class="p-1.5 bg-slate-100 hover:bg-emerald-100 text-emerald-600 rounded-full" title="Mapa" onclick="event.stopPropagation()" onmouseenter="setTip('Ver agências em Goiânia')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-3.5 h-3.5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            </a>
-                        </div>
-                    </td>
-                </tr><tr class="row-default bg-white border-b border-slate-100 hover:bg-slate-50 cursor-pointer transition-colors">
-                    <td class="px-4 py-3">
-                        <div class="font-bold text-slate-900 flex items-center"> Itaú Unibanco </div>
-                        <div class="mt-1"><span class="inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-slate-100 text-slate-800 mr-1 mb-1">Varejo</span></div>
-                    </td>
-                    <td class="px-4 py-3 text-center">2.24%</td>
-                    <td class="px-4 py-3 text-center text-slate-800 font-bold">R$&nbsp;570,14</td>
-                    <td class="px-4 py-3 text-right text-rose-700 font-bold">2.39%</td>
-                    <td class="px-4 py-3 text-center">
-                        <div class="flex items-center justify-center gap-1.5">
-                            <a href="tel:4004-4828" class="p-1.5 bg-slate-100 hover:bg-indigo-100 text-indigo-600 rounded-full" title="Ligar" onclick="event.stopPropagation()" onmouseenter="setTip('Ligue para Itaú Unibanco: 4004-4828')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" class="lucide lucide-phone w-3.5 h-3.5"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
-                            </a>
-                            <a href="mailto:atendimento@itau.com.br" class="p-1.5 bg-slate-100 hover:bg-orange-100 text-orange-600 rounded-full" title="Email" onclick="event.stopPropagation()" onmouseenter="setTip('Email: atendimento@itau.com.br')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-3.5 h-3.5"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                            </a>
-                            <a href="https://www.itau.com.br" target="_blank" class="p-1.5 bg-slate-100 hover:bg-blue-100 text-blue-600 rounded-full" title="Site Oficial" onclick="event.stopPropagation()" onmouseenter="setTip('Visite o site oficial')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="globe" class="lucide lucide-globe w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                            </a>
-                            <a href="https://www.google.com/maps/search/Itau+Goiania" target="_blank" class="p-1.5 bg-slate-100 hover:bg-emerald-100 text-emerald-600 rounded-full" title="Mapa" onclick="event.stopPropagation()" onmouseenter="setTip('Ver agências em Goiânia')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-3.5 h-3.5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            </a>
-                        </div>
-                    </td>
-                </tr><tr class="row-default bg-white border-b border-slate-100 hover:bg-slate-50 cursor-pointer transition-colors">
-                    <td class="px-4 py-3">
-                        <div class="font-bold text-slate-900 flex items-center"> BMG / Daycoval </div>
-                        <div class="mt-1"><span class="inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-emerald-100 text-emerald-800 mr-1 mb-1">Negativado</span></div>
-                    </td>
-                    <td class="px-4 py-3 text-center">2.34%</td>
-                    <td class="px-4 py-3 text-center text-slate-800 font-bold">R$&nbsp;583,62</td>
-                    <td class="px-4 py-3 text-right text-rose-700 font-bold">2.49%</td>
-                    <td class="px-4 py-3 text-center">
-                        <div class="flex items-center justify-center gap-1.5">
-                            <a href="tel:0800 979 9099" class="p-1.5 bg-slate-100 hover:bg-indigo-100 text-indigo-600 rounded-full" title="Ligar" onclick="event.stopPropagation()" onmouseenter="setTip('Ligue para BMG / Daycoval: 0800 979 9099')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" class="lucide lucide-phone w-3.5 h-3.5"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
-                            </a>
-                            <a href="mailto:suporte@bancobmg.com.br" class="p-1.5 bg-slate-100 hover:bg-orange-100 text-orange-600 rounded-full" title="Email" onclick="event.stopPropagation()" onmouseenter="setTip('Email: suporte@bancobmg.com.br')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-3.5 h-3.5"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                            </a>
-                            <a href="https://www.bancobmg.com.br" target="_blank" class="p-1.5 bg-slate-100 hover:bg-blue-100 text-blue-600 rounded-full" title="Site Oficial" onclick="event.stopPropagation()" onmouseenter="setTip('Visite o site oficial')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="globe" class="lucide lucide-globe w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                            </a>
-                            <a href="https://www.google.com/maps/search/Banco+BMG+Goiania" target="_blank" class="p-1.5 bg-slate-100 hover:bg-emerald-100 text-emerald-600 rounded-full" title="Mapa" onclick="event.stopPropagation()" onmouseenter="setTip('Ver agências em Goiânia')" onmouseleave="clearTip()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-3.5 h-3.5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                            </a>
-                        </div>
-                    </td>
-                </tr></tbody>
+                                <tbody id="tabelaBancos">
+                                    <!-- Preenchido via JS -->
+                                </tbody>
                             </table>
                         </div>
                     </div>
@@ -478,14 +312,14 @@
                     <!-- Dicas e Cuidados Essenciais (Site) -->
                     <div class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden no-print">
                         <div class="bg-slate-50 px-6 py-4 border-b border-slate-100 flex items-center gap-2" onmouseenter="setTip('Orientações de segurança financeira para evitar endividamento.')" onmouseleave="clearTip()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-check" class="lucide lucide-shield-check w-5 h-5 text-emerald-700"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                            <i data-lucide="shield-check" class="w-5 h-5 text-emerald-700"></i>
                             <h2 class="font-bold text-slate-800 text-lg">Dicas e Cuidados Essenciais</h2>
                         </div>
                         <div class="p-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-600">
                             
                             <!-- Card Troco -->
                             <div class="p-3 bg-amber-50 border border-amber-100 rounded-lg relative group">
-                                <strong class="block text-amber-800 mb-1 flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="alert-triangle" class="lucide lucide-alert-triangle w-3 h-3"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg> Cuidado com o "Troco"</strong>
+                                <strong class="block text-amber-800 mb-1 flex items-center gap-1"><i data-lucide="alert-triangle" class="w-3 h-3"></i> Cuidado com o "Troco"</strong>
                                 Refinanciar para pegar um valor pequeno muitas vezes reinicia sua dívida para a parcela nº 1.
                                 <button onclick="abrirModal('troco')" class="mt-2 text-[10px] font-bold text-amber-700 hover:text-amber-900 underline flex items-center gap-1 cursor-pointer">
                                     Saiba mais...
@@ -494,7 +328,7 @@
 
                             <!-- Card Portabilidade -->
                             <div class="p-3 bg-emerald-50 border border-emerald-100 rounded-lg">
-                                <strong class="block text-emerald-800 mb-1 flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle" class="lucide lucide-check-circle w-3 h-3"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg> Portabilidade</strong>
+                                <strong class="block text-emerald-800 mb-1 flex items-center gap-1"><i data-lucide="check-circle" class="w-3 h-3"></i> Portabilidade</strong>
                                 Se encontrar taxa menor, peça portabilidade. Você <strong>não paga IOF</strong> novamente sobre o saldo portado.
                                 <button onclick="abrirModal('portabilidade')" class="mt-2 text-[10px] font-bold text-emerald-700 hover:text-emerald-900 underline flex items-center gap-1 cursor-pointer">
                                     Saiba mais...
@@ -503,7 +337,7 @@
                             
                             <!-- Card do Sindicato com Link -->
                             <div class="p-3 bg-blue-50 border border-blue-100 rounded-lg md:col-span-2">
-                                <strong class="block text-blue-800 mb-1 flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" class="lucide lucide-users w-3 h-3"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg> Consulte seu Sindicato</strong>
+                                <strong class="block text-blue-800 mb-1 flex items-center gap-1"><i data-lucide="users" class="w-3 h-3"></i> Consulte seu Sindicato</strong>
                                 Visite seu sindicato antes de contratar. Eles oferecem transparência, conferem margem e possuem convênios éticos.
                                 <div class="flex items-center gap-4 mt-1">
                                     <a href="https://sindipublico.org.br/" target="_blank" class="text-blue-600 font-bold underline hover:text-blue-800" onmouseenter="setTip('https://sindipublico.org.br/')" onmouseleave="clearTip()">Acesse: sindipublico.org.br</a>
@@ -515,7 +349,7 @@
 
                             <!-- Card Seguro -->
                             <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
-                                <strong class="block text-slate-800 mb-1 flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield" class="lucide lucide-shield w-3 h-3"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg> Seguro Prestamista</strong>
+                                <strong class="block text-slate-800 mb-1 flex items-center gap-1"><i data-lucide="shield" class="w-3 h-3"></i> Seguro Prestamista</strong>
                                 Protege a família quitando a dívida em caso de falecimento, mas encarece a parcela. Verifique se é opcional.
                                 <button onclick="abrirModal('seguro')" class="mt-2 text-[10px] font-bold text-slate-700 hover:text-slate-900 underline flex items-center gap-1 cursor-pointer">
                                     Saiba mais...
@@ -524,7 +358,7 @@
 
                             <!-- Card Prazo -->
                             <div class="p-3 bg-rose-50 border border-rose-100 rounded-lg">
-                                <strong class="block text-rose-800 mb-1 flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calendar" class="lucide lucide-calendar w-3 h-3"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg> Prazo 144 Meses</strong>
+                                <strong class="block text-rose-800 mb-1 flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3"></i> Prazo 144 Meses</strong>
                                 Parcelas menores, mas o juro composto é brutal. Você pode pagar 3x o valor original. Evite se possível.
                                 <button onclick="abrirModal('prazo')" class="mt-2 text-[10px] font-bold text-rose-700 hover:text-rose-900 underline flex items-center gap-1 cursor-pointer">
                                     Saiba mais...
@@ -541,188 +375,12 @@
         <div id="tabSites" class="fade-in no-print hidden">
             <div class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden">
                 <div class="bg-slate-50 px-6 py-4 border-b border-slate-100 flex items-center gap-2" onmouseenter="setTip('Links externos para fontes oficiais e legislação.')" onmouseleave="clearTip()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="link" class="lucide lucide-link w-5 h-5 text-blue-700"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    <i data-lucide="link" class="w-5 h-5 text-blue-700"></i>
                     <h2 class="font-bold text-slate-800 text-lg">Links e Referências Importantes</h2>
                 </div>
                 <div id="sitesContent" class="p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="border-2 border-yellow-400 rounded-lg p-4 bg-yellow-50 shadow-sm md:col-span-2 relative overflow-hidden">
-                    <div class="absolute top-0 right-0 bg-yellow-400 text-yellow-900 text-[10px] font-bold px-2 py-1 rounded-bl">DESTAQUE</div>
-                    <div class="flex items-center gap-2 mb-2 text-yellow-900 font-bold">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star w-5 h-5 fill-yellow-500 text-yellow-600"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
-                        Sindipúblico Goiás
-                    </div>
-                    <p class="text-sm text-yellow-800 mb-3">Acesse o portal oficial do sindicato para conferir convênios exclusivos, notícias da categoria e suporte jurídico.</p>
-                    <a href="https://sindipublico.org.br/" target="_blank" class="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded text-sm transition-colors shadow" onmouseenter="setTip('https://sindipublico.org.br/')" onmouseleave="clearTip()">
-                        Acessar Portal Oficial <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-4 h-4"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                    </a>
+                    <!-- Preenchido via JS -->
                 </div>
-            
-                <div class="border border-slate-200 rounded-lg p-4 bg-slate-50">
-                    <div class="flex items-center gap-2 mb-3 text-emerald-800 font-bold border-b border-slate-200 pb-2" onmouseenter="setTip('Categoria de links úteis.')" onmouseleave="clearTip()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="percent" class="lucide lucide-percent w-5 h-5"><line x1="19" x2="5" y1="5" y2="19"></line><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg>
-                        IOF e Juros
-                    </div>
-                    <ul class="space-y-3">
-                        
-                            <li>
-                                <a href="https://www.c6bank.com.br/blog/mudancas-no-iof-2025" target="_blank" class="block group" onmouseenter="setTip('https://www.c6bank.com.br/blog/mudancas-no-iof-2025')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Mudanças no IOF 2025 - C6 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Explica as alterações no IOF em 2025 e revogações.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://www.santander.com.br/blog/mudancas-iof" target="_blank" class="block group" onmouseenter="setTip('https://www.santander.com.br/blog/mudancas-iof')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        IOF 2025 - Santander <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Detalhamento das novas regras do IOF para operações.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://www.bcb.gov.br/estatisticas/reporttxjuros/?codigoSegmento=1&amp;codigoModalidade=220101" target="_blank" class="block group" onmouseenter="setTip('https://www.bcb.gov.br/estatisticas/reporttxjuros/?codigoSegmento=1&amp;codigoModalidade=220101')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Taxas Anuais - Bacen <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Estatísticas oficiais de juros por modalidade.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://sicalc.receita.fazenda.gov.br/sicalc/selic/consulta" target="_blank" class="block group" onmouseenter="setTip('https://sicalc.receita.fazenda.gov.br/sicalc/selic/consulta')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Selic e cálculo de juros <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Ferramenta da Receita Federal.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://www.gov.br/previdencia/pt-br/noticias/2025/janeiro/taxa-maxima-de-juros-do-consignado-sobe-para-1-80-ao-mes" target="_blank" class="block group" onmouseenter="setTip('https://www.gov.br/previdencia/pt-br/noticias/2025/janeiro/taxa-maxima-de-juros-do-consignado-sobe-para-1-80-ao-mes')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Teto consignado: 1,80% <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">CNPS eleva teto de juros para 1,80% ao mês.</div>
-                                </a>
-                            </li>
-                        
-                    </ul>
-                </div>
-            
-                <div class="border border-slate-200 rounded-lg p-4 bg-slate-50">
-                    <div class="flex items-center gap-2 mb-3 text-emerald-800 font-bold border-b border-slate-200 pb-2" onmouseenter="setTip('Categoria de links úteis.')" onmouseleave="clearTip()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="credit-card" class="lucide lucide-credit-card w-5 h-5"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg>
-                        Empréstimo Consignado
-                    </div>
-                    <ul class="space-y-3">
-                        
-                            <li>
-                                <a href="https://goias.gov.br/governo-aumenta-tempo-de-contratacao-de-consignados/" target="_blank" class="block group" onmouseenter="setTip('https://goias.gov.br/governo-aumenta-tempo-de-contratacao-de-consignados/')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Prazo maior (Goiás) <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Governo amplia prazo para 144 meses.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://meutudo.com.br/blog/tabelas/emprestimo-consignado/" target="_blank" class="block group" onmouseenter="setTip('https://meutudo.com.br/blog/tabelas/emprestimo-consignado/')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Tabela de Juros 2026 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Comparativo de taxas para 2026.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://goias.gov.br/administracao/tabela-de-taxas-para-emprestimo-consignado/" target="_blank" class="block group" onmouseenter="setTip('https://goias.gov.br/administracao/tabela-de-taxas-para-emprestimo-consignado/')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Taxas Sead GO <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Tabela oficial de bancos credenciados em GO.</div>
-                                </a>
-                            </li>
-                        
-                    </ul>
-                </div>
-            
-                <div class="border border-slate-200 rounded-lg p-4 bg-slate-50">
-                    <div class="flex items-center gap-2 mb-3 text-emerald-800 font-bold border-b border-slate-200 pb-2" onmouseenter="setTip('Categoria de links úteis.')" onmouseleave="clearTip()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="scroll-text" class="lucide lucide-scroll-text w-5 h-5"><path d="M15 12h-5"></path><path d="M15 8h-5"></path><path d="M19 17V5a2 2 0 0 0-2-2H4"></path><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"></path></svg>
-                        Legislação Estadual
-                    </div>
-                    <ul class="space-y-3">
-                        
-                            <li>
-                                <a href="https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110412/lei-23246" target="_blank" class="block group" onmouseenter="setTip('https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110412/lei-23246')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Lei 23.246/2025 - GO <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Altera normas sobre consignações em folha.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://legisla.casacivil.go.gov.br/pesquisa_legislacao/108286/decreto-10372" target="_blank" class="block group" onmouseenter="setTip('https://legisla.casacivil.go.gov.br/pesquisa_legislacao/108286/decreto-10372')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Decreto 10.372/2023 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Regulamenta procedimentos administrativos.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2019/dc_20190619_000001587.html" target="_blank" class="block group" onmouseenter="setTip('https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2019/dc_20190619_000001587.html')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Decreto 1.587/2019 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Normas para servidores de Goiânia.</div>
-                                </a>
-                            </li>
-                        
-                    </ul>
-                </div>
-            
-                <div class="border border-slate-200 rounded-lg p-4 bg-slate-50">
-                    <div class="flex items-center gap-2 mb-3 text-emerald-800 font-bold border-b border-slate-200 pb-2" onmouseenter="setTip('Categoria de links úteis.')" onmouseleave="clearTip()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="scale" class="lucide lucide-scale w-5 h-5"><path d="M12 3v18"></path><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"></path><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"></path><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"></path><path d="M7 21h10"></path></svg>
-                        Direitos do Consumidor
-                    </div>
-                    <ul class="space-y-3">
-                        
-                            <li>
-                                <a href="https://www.barbieriadvogados.com/venda-casada-prestamista-consignado/" target="_blank" class="block group" onmouseenter="setTip('https://www.barbieriadvogados.com/venda-casada-prestamista-consignado/')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Venda casada é ilegal <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Artigo sobre ilegalidade do seguro imposto.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://www.tjdft.jus.br/consultas/jurisprudencia/jurisprudencia-em-temas/jurisprudencia-em-detalhes/acao-revisional-de-contrato-bancario/tarifa-de-abertura-de-credito-tac-e-tarifa-de-emissao-de-carne-tec" target="_blank" class="block group" onmouseenter="setTip('https://www.tjdft.jus.br/consultas/jurisprudencia/jurisprudencia-em-temas/jurisprudencia-em-detalhes/acao-revisional-de-contrato-bancario/tarifa-de-abertura-de-credito-tac-e-tarifa-de-emissao-de-carne-tec')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        TAC e TEC são ilegais <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Jurisprudência TJDFT sobre tarifas.</div>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://portal.al.go.leg.br/noticias/151164/data-base-de-4-83-para-servidores-publicos-do-poder-executivo-passa-em-segunda-votacao" target="_blank" class="block group" onmouseenter="setTip('https://portal.al.go.leg.br/noticias/151164/data-base-de-4-83-para-servidores-publicos-do-poder-executivo-passa-em-segunda-votacao')" onmouseleave="clearTip()">
-                                    <div class="text-sm font-semibold text-blue-700 group-hover:text-blue-900 group-hover:underline flex items-center gap-1">
-                                        Reajuste de 4,83% <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 opacity-50"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-                                    </div>
-                                    <div class="text-xs text-slate-500 mt-0.5">Aprovado para servidores do Executivo GO.</div>
-                                </a>
-                            </li>
-                        
-                    </ul>
-                </div>
-            </div>
             </div>
         </div>
 
@@ -732,7 +390,7 @@
     <footer class="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] z-50 no-print">
         <div class="max-w-7xl mx-auto px-4 h-10 flex justify-between items-center text-xs">
            <div class="flex items-center gap-2 text-slate-600 font-medium truncate max-w-[70%] md:max-w-none">
-              <span id="footerText" class="flex items-center gap-2 text-slate-400 italic"><span class="flex items-center gap-2 text-blue-700 fade-in"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="info" class="lucide lucide-info w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg> Salva este programa inteiro no seu computador para usar offline.</span></span>
+              <span id="footerText" class="flex items-center gap-2 text-slate-400 italic"><i data-lucide="info" class="w-3.5 h-3.5"></i> Passe o mouse para ver dicas...</span>
            </div>
            
            <div class="text-slate-400 font-medium pl-4 border-l border-slate-100 text-right leading-tight">
@@ -748,7 +406,7 @@
             <div id="modalHeader" class="px-6 py-4 border-b flex justify-between items-center">
                 <h3 id="modalTitle" class="font-bold text-lg flex items-center gap-2"></h3>
                 <button onclick="fecharModal()" class="text-slate-400 hover:text-slate-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" class="lucide lucide-x w-5 h-5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+                    <i data-lucide="x" class="w-5 h-5"></i>
                 </button>
             </div>
             <div class="p-6 modal-content text-sm text-slate-600 leading-relaxed" id="modalBody">
@@ -1204,11 +862,21 @@
             lucide.createIcons();
         }
         function clearTip() {
-            document.getElementById('footerText').innerHTML = `<span class="flex items-center gap-2 text-slate-400 italic"><i data-lucide="help-circle" class="w-3.5 h-3.5"></i> Passe o mouse sobre os elementos...</span>`;
+            document.getElementById('footerText').innerHTML = `<span class="flex items-center gap-2 text-slate-400 italic"><i data-lucide="help-circle" class="w-3.5 h-3.5"></i> Passe o mouse para ver dicas...</span>`;
             lucide.createIcons();
         }
 
+        // --- CORREÇÃO: Função Baixar Programa ---
+        // Adicionada detecção de celular para evitar frustração do usuário
         function baixarPrograma() {
+            // Verifica se é mobile (Android, iPhone, etc)
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            
+            if (isMobile) {
+                alert("Atenção: A função de baixar o programa executável (.html) funciona melhor em computadores.\n\nNo celular, utilize o botão 'Imprimir' (ao lado) para Salvar como PDF.");
+                return;
+            }
+
             const htmlContent = document.documentElement.outerHTML;
             const blob = new Blob([htmlContent], { type: 'text/html' });
             const url = URL.createObjectURL(blob);
@@ -1220,6 +888,9 @@
             document.body.removeChild(a);
         }
 
+        // --- CORREÇÃO: Função Gerar Orçamento ---
+        // Alterado para usar IFRAME oculto em vez de window.open
+        // Isso resolve o bloqueio de popups em celulares e permite salvar como PDF
         function gerarOrcamento() {
             const valorRaw = parseFloat(document.getElementById('valorLiquido').value);
             const valor = fMoney(valorRaw);
@@ -1308,7 +979,6 @@
                 }
             }
 
-            // HTML extra para taxas adicionais no resumo
             let extrasHtml = '';
             if (usaExtras && valorExtra > 0) {
                 extrasHtml = `
@@ -1319,7 +989,6 @@
                 </div>`;
             }
             
-            // HTML de Margem para impressão
             let margemHtml = '';
             if (remunLiq > 0) {
                 const isEstourado = pmtMain > margem35;
@@ -1333,7 +1002,6 @@
                 </div>`;
             }
 
-            // GERAÇÃO DAS DICAS DETALHADAS PARA IMPRESSÃO
             const dicasPrintHtml = Object.values(DICAS_INFO).map(dica => `
                 <div class="tip-box full-tip" style="margin-bottom: 15px; page-break-inside: avoid;">
                     <span class="tip-title" style="display:block; font-weight:bold; margin-bottom:5px; font-size:11px; border-bottom:1px solid #eee; padding-bottom:2px;">
@@ -1345,8 +1013,7 @@
                 </div>
             `).join('');
 
-            const printWindow = window.open('', '_blank');
-            printWindow.document.write(`
+            const conteudoPrint = `
                 <html>
                 <head>
                     <title>Orçamento_CET_ConsignadoGO_${dataFile}</title>
@@ -1367,11 +1034,8 @@
                         h3 { margin-top: 15px; margin-bottom: 5px; font-size: 14px; border-left: 3px solid #0f172a; padding-left: 8px; }
                         table { width: 100%; border-collapse: collapse; font-size: 10px; margin-bottom: 10px; }
                         th { background: #f8fafc; text-align: left; padding: 4px; font-size: 9px; text-transform: uppercase; border-bottom: 2px solid #e2e8f0; }
-                        
-                        /* Layout de Dicas Completas */
                         .tips-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
                         .tip-box { background: #fff; border: 1px solid #e5e7eb; padding: 10px; border-radius: 4px; }
-                        
                         .footer-container { margin-top: 30px; border-top: 1px solid #e5e7eb; padding-top: 15px; display: flex; justify-content: space-between; align-items: flex-end; }
                         .legal-text { text-align: left; font-size: 9px; color: #9ca3af; line-height: 1.4; max-width: 70%; }
                         .signature { text-align: right; font-size: 10px; color: #9ca3af; }
@@ -1410,10 +1074,34 @@
                         <div class="legal-text">Este documento é uma simulação preliminar para fins de consultoria e não possui valor contratual.<br>As taxas podem variar conforme análise de crédito (score), margem disponível e convênio vigente.</div>
                         <div class="signature">desenvolvido por <span class="fgc">FGC</span><br><span style="font-weight:normal; letter-spacing:0;">fernandocortes@ueg.br</span></div>
                     </div>
-                    <script>window.print();<\/script>
                 </body>
                 </html>
-            `);
+            `;
+
+            // IMPLEMENTAÇÃO DE IMPRESSÃO VIA IFRAME (Funciona no Mobile)
+            const iframe = document.createElement('iframe');
+            iframe.style.position = 'fixed';
+            iframe.style.right = '0';
+            iframe.style.bottom = '0';
+            iframe.style.width = '0';
+            iframe.style.height = '0';
+            iframe.style.border = '0';
+            document.body.appendChild(iframe);
+
+            const doc = iframe.contentWindow.document;
+            doc.open();
+            doc.write(conteudoPrint);
+            doc.close();
+
+            // Aguarda renderização e imprime
+            setTimeout(() => {
+                iframe.contentWindow.focus();
+                iframe.contentWindow.print();
+                // Remove o iframe após a impressão (timeout maior para garantir que o diálogo abriu)
+                setTimeout(() => {
+                    document.body.removeChild(iframe);
+                }, 2000);
+            }, 500);
         }
 
         document.addEventListener('DOMContentLoaded', () => {
