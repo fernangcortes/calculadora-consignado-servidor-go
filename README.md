@@ -1,4 +1,4 @@
-# Manual do Usuário — Simulador de Empréstimo Consignado (Servidor GO
+# Manual do Usuário — Simulador de Empréstimo Consignado (Servidor GO)
 
 Bem-vindo! Este é o manual pensado para quem vai abrir a página diretamente pelo link (sem precisar instalar nada). Aqui você encontra instruções passo a passo, explicações simples dos termos e respostas para os problemas mais comuns. Tudo em linguagem prática — sem jargões de programação.
 
